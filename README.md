@@ -393,5 +393,8 @@ Redux-thunk and/or redux-taking-thunk
 - immer
 - nanoid
 
+## Publish to npm
+[publish](publish.README.md)
+
 ## Credit
 Original inspiration comes from [redux-thunk-loading](https://github.com/jeffery021121/redux-thunk-loading).
