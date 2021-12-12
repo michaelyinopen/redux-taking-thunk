@@ -4,8 +4,20 @@
       "@babel/preset-env",
       {
         "useBuiltIns": "entry",
+        "targets": {
+          "esmodules": true
+        },
         "corejs": 3.19
       }
+    ],
+    [
+      "@babel/preset-typescript",
+      {
+        "allExtensions": true
+      }
     ]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
   ]
 }
