@@ -11,8 +11,7 @@
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run type-check",
     "preversion": "npm test && npm run type-check",
-    "version": "npm run build && git add -A",
-    "postversion": "git push && git push --tags && rm -rf dist"
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
