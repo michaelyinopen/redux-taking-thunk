@@ -1,0 +1,35 @@
+{
+  "name": "redux-taking-thunk",
+  "version": "1.0.0",
+  "description": "Redux thunk with take latest.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm test && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelyinopen/redux-taking-thunk.git"
+  },
+  "author": "Michael Yin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelyinopen/redux-taking-thunk/issues"
+  },
+  "homepage": "https://github.com/michaelyinopen/redux-taking-thunk#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "core-js": "^3.19.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
